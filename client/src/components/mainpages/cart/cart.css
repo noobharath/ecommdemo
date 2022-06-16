@@ -1,0 +1,54 @@
+.cartDiv{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart{
+    width: 35vw;
+    border: 1px solid #ccc;
+    transform: scaleY(0.98);
+}
+.cartEmpty{
+    margin-top: 10%;
+    font-family: monospace;
+}
+.box-detail{
+    width: fit-content;
+}
+.cartImg{
+    width: 30vw;
+    height: fit-content;
+}
+.cart img{
+    width: 20vw;
+    height: fit-content;
+}
+.amount span{
+    color: crimson;
+    padding: 0 20px;
+}
+.amount button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #777;
+}
+.delete{
+    position: absolute;
+    top:0;
+    right: 5px;
+    color: crimson;
+    font-weight: 900;
+    cursor: pointer;
+}
+.total{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.total h3{
+    color: crimson;
+}
